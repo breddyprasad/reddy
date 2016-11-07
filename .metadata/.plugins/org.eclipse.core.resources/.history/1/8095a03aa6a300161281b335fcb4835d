@@ -1,0 +1,51 @@
+package sample.cucumber;
+
+import java.util.List;
+
+import cucumber.api.DataTable;
+import cucumber.api.java.en.*;
+
+public class StepDefinitions {
+
+	@Given("^I want to write a step with precondition$")
+	public void myMethod() {
+		
+		
+		
+		
+		
+	}
+	
+	@When("^I login as user \"([^\"]*)\" and password \"([^\"]*)\"$")
+	public void myMethod1(String arg1, String arg2) {
+		
+		System.out.println("username from cucumber::::: " + arg1);
+		System.out.println("username from cucumber::::: " + arg2);
+	}
+	
+	@And("^I validate the outcomes$")
+	public void myMethod2() {
+		
+	}
+	
+	@Then("^check more outcomes$")
+	public void myMethod3() {
+		
+	}
+	
+	
+	@When("^I validate the outcomes \"([^\"]*)\"$") 
+		public void purchase(String arg1, DataTable arg2) {
+		
+		List<List<String>> items = arg2.raw();
+		
+		String item1 =  items.get(0).get(0);
+		
+		System.out.println("item1::::: " + item1);
+			
+		}
+	}
+	
+	
+	
+

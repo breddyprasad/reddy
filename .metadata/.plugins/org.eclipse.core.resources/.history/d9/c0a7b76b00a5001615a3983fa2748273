@@ -1,0 +1,17 @@
+package selenium4;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Class_1 {
+
+	public static void main(String[] args) {
+
+		WebDriver myBrowser =  new FirefoxDriver();
+		
+		myBrowser.get("http://www.amazon.in");
+		
+		
+	}
+
+}

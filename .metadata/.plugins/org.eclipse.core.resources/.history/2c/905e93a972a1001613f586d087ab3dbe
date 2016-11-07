@@ -1,0 +1,51 @@
+package Pckage_1;
+
+import java.util.Properties;
+
+public class Drivers {
+
+	public static void main(String[] args) {
+		
+		Properties prop = new Properties();
+		
+		
+		
+		
+		
+		try {
+
+			accounts.accounts_TS_1();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+
+			accounts.accounts_TS_2();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+
+			loans.loans_TS_1();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+
+			loans.loans_TS_2();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+
+		
+
+	}
+
+}

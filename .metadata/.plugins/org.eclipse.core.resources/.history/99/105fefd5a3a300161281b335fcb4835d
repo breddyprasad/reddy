@@ -1,0 +1,8 @@
+Feature: My first sample cucumber feature
+
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    When I login as user "testuser2" and password "testpwd"
+    And I validate the outcomes "<username>"
+      | user1 | user2 |
+    Then check more outcomes

@@ -1,0 +1,9 @@
+Feature: My first sample cucumber feature
+
+  Scenario: Title of your scenario
+    Given login creds
+    When I enter uname and pwd
+    And click on submit button
+    Then home page is loaded
+    
+    

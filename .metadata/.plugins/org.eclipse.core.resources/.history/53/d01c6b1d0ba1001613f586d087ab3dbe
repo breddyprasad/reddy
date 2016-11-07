@@ -1,0 +1,40 @@
+package sample.cucumber;
+
+public class StepDefinitions {
+
+	Given("^I want to write a step with precondition$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+
+	Given("^some other precondition$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+
+	When("^I complete action$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+
+	When("^some other action$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+
+	When("^yet another action$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+
+	Then("^I validate the outcomes$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+
+	Then("^check more outcomes$", () -> {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	});
+
+}

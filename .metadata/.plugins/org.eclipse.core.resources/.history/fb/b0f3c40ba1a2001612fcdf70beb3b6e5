@@ -1,0 +1,18 @@
+package Pckage_1;
+
+public class HtmlReport {
+
+	public static void main(String[] args) {
+
+		
+	String htmlContent = "<div><h1>My Test Report</h1></div>";
+	
+	File myFile = new File("report.html");
+		
+		
+		
+		
+		
+	}
+
+}

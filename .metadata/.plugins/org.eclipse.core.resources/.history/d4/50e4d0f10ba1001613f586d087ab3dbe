@@ -1,0 +1,11 @@
+package sample.cucumber;
+
+import cucumber.api.java.en.*;
+
+public class StepDefinitions {
+
+	@Given("^I want to write a step with precondition$")
+	public void myMethod() {
+		// Write code here that turns the phrase above into concrete actions
+	}
+}

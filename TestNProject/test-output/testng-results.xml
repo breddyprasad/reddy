@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bank application" duration-ms="57" started-at="2016-11-05T21:40:41Z" finished-at="2016-11-05T21:40:41Z">
+    <groups>
+    </groups>
+    <test name="Smoke test" duration-ms="57" started-at="2016-11-05T21:40:41Z" finished-at="2016-11-05T21:40:41Z">
+      <class name="myPackage.Class_1">
+        <test-method status="PASS" signature="testMethod_A(java.lang.String, java.lang.String)[pri:0, instance:myPackage.Class_1@458ad742]" name="testMethod_A" duration-ms="18" started-at="2016-11-05T14:40:41Z" finished-at="2016-11-05T14:40:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod_A -->
+        <test-method status="PASS" signature="testMethod_B()[pri:0, instance:myPackage.Class_1@458ad742]" name="testMethod_B" duration-ms="13" started-at="2016-11-05T14:40:41Z" finished-at="2016-11-05T14:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod_B -->
+        <test-method status="PASS" signature="testMethod_C()[pri:0, instance:myPackage.Class_1@458ad742]" name="testMethod_C" duration-ms="15" started-at="2016-11-05T14:40:41Z" finished-at="2016-11-05T14:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod_C -->
+      </class> <!-- myPackage.Class_1 -->
+    </test> <!-- Smoke test -->
+  </suite> <!-- Bank application -->
+</testng-results>

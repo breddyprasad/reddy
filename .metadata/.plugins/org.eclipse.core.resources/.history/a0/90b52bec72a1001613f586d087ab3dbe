@@ -1,0 +1,62 @@
+package Pckage_1;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class Drivers {
+
+	public static void main(String[] args) throws Exception {
+		
+		Properties prop = new Properties();
+		
+		InputStream myConfig = new FileInputStream("config.properties");
+		
+		prop.load(myConfig);
+		
+		String scenarios = prop.getProperty("scenario");
+		
+		System.out.println("scenarios::: " + scenarios);
+		
+		
+		
+		
+		
+		try {
+
+			accounts.accounts_TS_1();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+
+			accounts.accounts_TS_2();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+
+			loans.loans_TS_1();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {
+
+			loans.loans_TS_2();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+
+		
+
+	}
+
+}

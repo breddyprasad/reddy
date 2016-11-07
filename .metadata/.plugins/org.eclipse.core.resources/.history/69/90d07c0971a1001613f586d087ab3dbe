@@ -1,0 +1,54 @@
+package Pckage_1;
+
+public class loans {
+
+	public void accounts_TC_1() {
+
+		System.out.println("This is TC 1 from Accounts");
+
+	}
+
+	public void accounts_TC_2() {
+
+		System.out.println("This is TC 2 from Accounts");
+
+	}
+
+	public void accounts_TC_3() {
+
+		System.out.println("This is TC 3 from Accounts");
+
+	}
+
+	public void accounts_TC_4() {
+
+		System.out.println("This is TC 4 from Accounts");
+
+	}
+
+	public void accounts_TC_5() {
+
+		System.out.println("This is TC 5 from Accounts");
+
+	}
+
+	public void accounts_TS_1() {
+
+		accounts_TC_1();
+		accounts_TC_2();
+		accounts_TC_3();
+
+	}
+
+	public void accounts_TS_2() {
+
+		accounts_TC_4();
+		accounts_TC_5();
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

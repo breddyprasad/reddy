@@ -1,0 +1,73 @@
+package Pckage_1;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class Drivers {
+
+	public static void main(String[] args) throws Exception {
+
+		//Dealing with properties file to get the inputs
+		Properties prop = new Properties();
+
+		InputStream myConfig = new FileInputStream(new File("config.properties"));
+
+		prop.load(myConfig);
+
+		//Collecting all the scenarios that have to be executed
+		String AllScenarios = prop.getProperty("scenario");
+
+		//Splitting the scenario string by a ',' to collect the names of individual scenarios
+		String scenariosList[] = AllScenarios.split(" ");
+
+		
+		//Looping through all the scenarios from the array created above
+		for (int i = 0; i < scenariosList.length; i++) {
+			
+			String actScenario = scenariosList[i];
+
+			//Conditions to check which scenario has to be executed
+			if (actScenario.equalsIgnoreCase("accounts")) {
+
+				try {
+
+					accounts.accounts_TS_1();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				try {
+
+					accounts.accounts_TS_2();
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+			} else if (actScenario.equalsIgnoreCase("loans")) {
+
+				try {
+
+					loans.loans_TS_1();
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				try {
+
+					loans.loans_TS_2();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package selenium4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Class_1 {
+
+	public static void main(String[] args) throws Exception {
+
+		WebDriver myBrowser =  new FirefoxDriver();
+		
+		myBrowser.get("http://www.amazon.in");
+		
+		myBrowser.manage().window().maximize();
+		
+		//myBrowser.findElement(By.id("twotabsearchtextbox")).sendKeys("Mobiles");
+		
+		//myBrowser.findElement(By.xpath("//*[@id='nav-search']/form/div[2]/div/input")).click();
+		
+		String actvalue = myBrowser.findElement(By.xpath("//*[@id='nav-xshop']/a[4]")).getText();
+		
+		System.out.println("actvalue::::::::::::::: " + actvalue);
+		
+		
+		Thread.sleep(10000);
+		
+		myBrowser.close();
+		
+		
+		
+		
+		
+	}
+
+}

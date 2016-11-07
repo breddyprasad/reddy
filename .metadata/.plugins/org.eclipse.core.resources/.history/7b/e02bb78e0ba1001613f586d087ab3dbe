@@ -1,0 +1,16 @@
+package sample.cucumber;
+
+
+public class StepDefinitions {
+
+	public void myMethod(){
+		@Given("^I want to write a step with precondition$", () -> {
+		    // Write code here that turns the phrase above into concrete actions
+		    throw new PendingException();
+		});
+	}
+
+	
+	
+	
+}

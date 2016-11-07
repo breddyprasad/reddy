@@ -1,0 +1,7 @@
+Feature: My first sample cucumber feature
+
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    When I complete action
+    And I validate the outcomes
+    Then check more outcomes

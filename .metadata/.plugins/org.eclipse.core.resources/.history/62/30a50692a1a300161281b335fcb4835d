@@ -1,0 +1,30 @@
+package sample.cucumber;
+
+import cucumber.api.java.en.*;
+
+public class StepDefinitions {
+
+	@Given("^I want to write a step with precondition$")
+	public void myMethod() {
+		
+		
+		
+		
+		
+	}
+	
+	@When("^I login as user \"([^\"]*)\" and password \"([^\"]*)\"$")
+	public void myMethod1(String arg1, String arg2) {
+		
+	}
+	
+	@And("^I validate the outcomes$")
+	public void myMethod2() {
+		
+	}
+	
+	@Then("^check more outcomes$")
+	public void myMethod3() {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package sample.cucumber;
+
+public class Cucumber {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}
